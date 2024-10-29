@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { useTasksDispatch } from './Context.js';
+import { useTasksDispatch } from './TasksContext.js';
  
 export default function AddTask() {
   const [text, setText] = useState('');
